@@ -21,7 +21,7 @@ body {
   -moz-transform: translate(2000px); */
 }
 /* add background class to a new div so not affected by size change */
-/* add bounce to hover state */
+/* change scale when hovering*/
 header {
   padding: 15px 5px 5px;
 }
