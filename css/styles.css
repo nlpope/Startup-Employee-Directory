@@ -15,18 +15,19 @@ body {
   margin: 0;
   font-family: "Nunito", sans-serif;
   text-align: center;
-  background: linear-gradient(
-    to bottom right,
-    hsl(0, 70%, 50%),
-    hsl(200, 70%, 50%)
-  );
+  background: linear-gradient(to left, hsl(0, 70%, 50%), hsl(200, 70%, 50%));
 
-  zoom: 1.2;
-  -moz-transform: translate(2000px);
+  /* zoom: 1.2;
+  -moz-transform: translate(2000px); */
 }
-
+/* add background class to a new div so not affected by size change */
+/* add bounce to hover state */
 header {
   padding: 15px 5px 5px;
+}
+
+div.card:hover {
+  background-color: rgb(172, 169, 169);
 }
 
 .header-inner-container {
