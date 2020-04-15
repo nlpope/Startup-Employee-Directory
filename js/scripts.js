@@ -173,7 +173,7 @@ $(function () {
         i--;
         j++;
       }
-      //create mm/dd/yyyy format by swapping array elements
+      //creates mm/dd/yyyy format by swapping array elements
       newString = newString.split("-").reverse();
       tmp = newString[0];
       newString[0] = newString[1];
